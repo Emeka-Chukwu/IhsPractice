@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "599388345095",
+    "firebase_url": "https://ihsprac.firebaseio.com",
+    "project_id": "ihsprac",
+    "storage_bucket": "ihsprac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599388345095:android:4ce4377f0d2e55d235aba2",
+        "android_client_info": {
+          "package_name": "com.example.user.ihsprac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "599388345095-s0imbkfhot8i8s1nrmenvp4oac2g5520.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.ihsprac",
+            "certificate_hash": "bf3c0aff3bb97cc892be03068a9e4d38d1a9101e"
+          }
+        },
+        {
+          "client_id": "599388345095-138ocbdds1id8rv0je6v68f97fglp66i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV6OrrdOPPDN05Frjs5xKkLnwCHa1Y6bc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "599388345095-138ocbdds1id8rv0je6v68f97fglp66i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

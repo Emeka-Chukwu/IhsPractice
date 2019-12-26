@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PostActivity">
+
+    <ImageButton
+        android:layout_width="300dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="300dp"
+        android:background="@drawable/upload"
+        android:onClick="imageButtonClicked"
+        android:id="@+id/image_button"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name"
+        android:background="@drawable/editshape"
+        android:padding="12dp"
+        android:layout_margin="12dp"
+        android:id="@+id/editName"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Description"
+        android:background="@drawable/editshape"
+        android:padding="12dp"
+        android:layout_margin="12dp"
+        android:id="@+id/editDesc"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:onClick="submitButtonClicked"
+        android:text="Submit"
+        />
+
+
+
+
+</LinearLayout>
